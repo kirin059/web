@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 100px 100px 1fr 30px;
+}
+
+head{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+h1{
+  color: dimgrey;
+  text-align: center;
+  font-size: 60px;
+}
+
+nav{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+li{
+  list-style-type: none;
+  float:left;
+  display: inline-block;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 50px;
+  padding-top: 10px;
+  text-align : center;
+  font-size: 32px;
+}
+
+main{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 30px;
+}
+
+footer{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin: 30px;
+  }
