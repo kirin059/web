@@ -11,13 +11,21 @@
 head{
     grid-row-start: 1;
     grid-row-end: 2;
+    position:relative;
 }
 h1{
   color: dimgrey;
   text-align: center;
   font-size: 60px;
 }
+button{
+  position:absolute;
+  width:60px;
+  height:40px;
+  right:550px;
+  top:55px;
 
+}
 nav{
     grid-row-start: 2;
     grid-row-end: 3;

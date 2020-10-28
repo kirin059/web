@@ -4,12 +4,53 @@
         <meta charset="UTF-8" />
         <title>practice</title>
         <link rel="stylesheet" href="grid.css">
+        <script src="night_day.js"></script>
 
     </head>
 <body>
+<!--
+    <input type="button" value="night" onclick="
+    var target=document.querySelector('body')
+      if(this.value==='night') {
+        target.style.backgroundColor='black';
+        target.style.color='white';
+        this.value='day';
+
+            var alist=document.querySelectorAll('a');
+            var i=0;
+            while(i < alist.length){
+              alist[i].style.color='powderblue';
+              i=i+1;
+            }
+
+      } else {
+        target.style.backgroundColor='white';
+        target.style.color='black';
+        this.value='night';
+
+            var alist=document.querySelectorAll('a');
+            var i=0;
+            while(i < alist.length){
+              alist[i].style.color='blue';
+              i=i+1;
+            }
+
+      }
+    ">
+  -->
+
+    <input type="button" value="night" onclick="
+    var target=document.querySelector('body')
+    handler(this);
+    ">
+
+
     <div class="container">
     <head>
         <h1>practice</h1>
+        <button type="button">
+          <a href="index.html">main</a>
+        </button>
     </head>
     <nav>
         <ol>
@@ -19,6 +60,12 @@
         </ol>
     </nav>
     <main>
+
+      <div class="js-clock">
+      	<span class="js-title">현재시각</span>
+        <script src="clock.js"></script>
+      </div>
+
       <p style="margin-bottom:60px;">
         <h3>웹 표준(Web Standard) </h3>
         웹에서 사용되는 표준 기술이나 규칙 (W3C의 권고안에서 나온 기술들이 여기에 해당).
