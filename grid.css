@@ -48,6 +48,14 @@ main{
     grid-row-end: 4;
     margin: 30px;
 }
+.game{
+  position: relative;
+  width:170px;
+  height:40px;
+  right:0px;
+  top:5px;
+  background-color: peru;
+}
 
 footer{
     grid-row-start: 4;
